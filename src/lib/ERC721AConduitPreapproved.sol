@@ -10,7 +10,7 @@ import { ERC721A } from "https://github.com/chiru-labs/ERC721A/blob/9be81f029a08
 abstract contract ERC721AConduitPreapproved is ERC721A {
     /// @dev The canonical OpenSea conduit.
     address internal constant _CONDUIT =
-        0x1E0049783F008A0085193E00003D00cd54003c71;
+        0xDef1C0ded9bec7F1a1670819833240f027b25EfF;
 
     /**
      * @notice Deploy the token contract.
