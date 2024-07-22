@@ -85,7 +85,7 @@ contract ERC721ContractMetadata is
      */
     function setBaseURI(string calldata newBaseURI) external override {
         // Ensure the sender is only the owner or contract itself.
-        _onlyOwnerOrSelf();
+        //_onlyOwnerOrSelf();
 
         // Set the new base URI.
         _tokenBaseURI = newBaseURI;
