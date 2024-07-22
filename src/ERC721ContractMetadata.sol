@@ -18,7 +18,7 @@ import {
 
 import { ITransferValidator721 } from "./interfaces/ITransferValidator.sol";
 
-import { TwoStepOwnable } from "https://github.com/emo-eth/utility-contracts/blob/6543a1dd10160936849de2f2fbcc18503906fb1e/src/TwoStepOwnable.sol";
+import { TwoStepOwnable } from "https://github.com/agentjacker/utility-contracts/blob/main/src/TwoStepOwnable.sol";
 
 import { IERC2981 } from "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/6a8d977d2248cf1c115497fccfd7a2da3f86a58f/contracts/interfaces/IERC2981.sol";
 
